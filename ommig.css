@@ -1,0 +1,113 @@
+/* #portrat {
+    background-image: url(dan.png);
+    min-height: 10vh;
+}
+
+.tabcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.tab1 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+}
+
+.tab2 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+} */
+
+
+
+.tabcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.tab1 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+    margin-top: 2rem;
+    min-width: 40vh;
+    max-height: 60vh;
+}
+
+.tab2 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+    margin-top: 1rem;
+    min-width: 40vh;
+    max-height: 55vh;
+}
+
+
+.top{
+    text-align: center;
+    margin-top: -1rem;
+    background-color: #CDCDCD;
+}
+
+
+.bottom{
+    /* outline: dotted blue; */
+    background-color: #EEEEEE;
+    outline: solid black 1px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
+
+}
+
+.bottom2{
+    /* outline: dotted blue; */
+    background-color: #EEEEEE;
+    outline: solid black 1px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rbottom{
+    /* outline: dotted blue; */
+    background-color: #EEEEEE;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-image: url(dan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    min-height: 45vh;
+    outline: solid black 1px;
+}
+
+.migcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

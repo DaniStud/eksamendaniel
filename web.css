@@ -1,0 +1,154 @@
+
+.tabcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.tab1 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+    margin-top: -22rem;
+    min-width: 40vh;
+}
+
+
+.top{
+    text-align: center;
+    margin-top: -1rem;
+    background-color: #CDCDCD;
+    
+}
+
+
+
+.emnecontainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    min-height: 50vh;
+    outline: solid;
+}
+
+
+.et {
+    grid-row: 1/1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 6rem;
+    box-shadow: 0px 2px white;
+    padding-left: .3rem;
+}
+
+
+.to {
+    grid-row: 2/2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 2px white;
+    padding-left: .3rem;
+}
+
+.tre {
+    grid-row: 3/3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 2px white;
+    padding-left: .3rem;
+}
+.fire {
+    grid-row: 4/4;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.fem {
+    grid-row: 5/5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.seks {
+    grid-row: 6/6;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.syv {
+    grid-row: 7/7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.otte {
+    grid-row: 8/8;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.ni {
+    grid-row: 9/9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+
+.ti
+{
+    grid-row: 10/10;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.elleve
+{
+    grid-row: 11/11;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.tolv 
+{
+    grid-row: 12/12;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+.tretten
+{
+    grid-row: 13/13;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+    box-shadow: 0px 2px white;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 10rem;
+}

@@ -1,0 +1,46 @@
+.tabcontainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.tab {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    margin-top: -5rem;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+}
+
+
+.top{
+    text-align: center;
+    margin-top: -1rem;
+    background-color: #CDCDCD;
+}
+
+.menu {
+    height: 15vh;
+    outline: solid black 1px;
+    background-color: #DDDDDD;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.menu p {
+    padding: 2.2rem;
+    font-size: 1.5rem;
+}
+
+.bottom{
+    /* outline: dotted blue; */
+    height: 30vh;
+    background-color: #EEEEEE;
+    outline: solid black 1px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

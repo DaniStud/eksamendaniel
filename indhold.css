@@ -1,0 +1,70 @@
+
+.tabcontainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.tab1 {
+    background-color: #CDCDCD;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    outline: solid;
+    border: solid .5rem #CDCDCD;
+    border-top-style: none;
+    box-shadow: 4px 0px;
+    margin-top: -3rem;
+    min-width: 40vh;
+}
+
+
+.top{
+    text-align: center;
+    margin-top: -1rem;
+    background-color: #CDCDCD;
+    
+}
+
+
+
+.emnecontainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height: 50vh;
+    outline: solid;
+    padding: .4rem;
+}
+
+
+.web {
+    grid-row: 1/1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 6rem;
+    box-shadow: 0px 2px white;
+    padding-left: .3rem;
+}
+
+
+.ux {
+    grid-row: 2/2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 2px white;
+    padding-left: .3rem;
+}
+
+.ani{
+    grid-row: 3/3;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: .3rem;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+

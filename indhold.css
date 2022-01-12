@@ -13,7 +13,7 @@
     border: solid .5rem #CDCDCD;
     border-top-style: none;
     box-shadow: 4px 0px;
-    margin-top: -3rem;
+    margin-top: -6rem;
     min-width: 40vh;
 }
 
@@ -29,14 +29,14 @@
 
 .emnecontainer{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     min-height: 50vh;
     outline: solid;
     padding: .4rem;
 }
 
 
-.web {
+.to {
     grid-row: 1/1;
     background-repeat: no-repeat;
     background-size: contain;
@@ -46,20 +46,13 @@
 }
 
 
-.ux {
+.et {
     grid-row: 2/2;
     background-repeat: no-repeat;
     background-size: contain;
-    box-shadow: 0px 2px white;
     padding-left: .3rem;
 }
 
-.ani{
-    grid-row: 3/3;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: .3rem;
-}
 
 
 h2 {

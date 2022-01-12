@@ -13,7 +13,7 @@
     border: solid .5rem #CDCDCD;
     border-top-style: none;
     box-shadow: 4px 0px;
-    margin-top: -8rem;
+    margin-top: -6rem;
     min-width: 40vh;
 }
 
@@ -32,6 +32,7 @@
     grid-template-rows: 1fr;
     min-height: 50vh;
     outline: solid;
+    padding: .4rem;
 }
 
 

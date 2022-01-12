@@ -32,6 +32,7 @@
     grid-template-rows: 1fr 1fr;
     min-height: 50vh;
     outline: solid;
+    padding: .4rem;
 }
 
 
